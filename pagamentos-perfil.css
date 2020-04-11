@@ -1,0 +1,187 @@
+.entrar-con{
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+
+.cadastrar-con{
+  margin-top: 5%; 
+  margin-bottom: 7%;
+}
+
+    .col-4{
+     margin-top: 5%;
+   }
+
+   h1.titulo, h1.titulo-atual {
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    padding-top: 5%;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    
+  }
+
+  h1.titulo{
+    color:#B3B1AF;
+  }
+
+  h1.titulo-atual{
+   font-weight: bold;
+   color:black;
+
+ }
+
+ .form-contact {
+  display: flex;
+  font-family: roboto;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 20%;
+  width: 70%;
+}
+
+.form-contact-input {
+
+  width: 100%;
+  color: #292929;
+  font-size: 16px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 10px;
+  text-indent: 20px;
+}
+
+
+.form-button{
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  
+  background: #FFFF40;
+  display: block;
+  border: none;
+  padding-top: auto;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.form-button:hover{
+
+ background: black;
+ color: white;
+}
+
+.form-button1{
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  height: 25px;
+  background:black;
+  display: block;
+  border: none;
+  border-radius: 2px;
+  padding:auto;
+  width: 170px;
+  margin-right: auto;
+  margin-left: 0px;
+  margin-bottom: 7px;
+
+}
+
+
+
+select.parcelamento{
+  border: none;
+  background: none;
+  margin-top: 8px;
+}
+
+.botão ,.botão-cartão{
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 18px;
+ cursor: pointer;
+ float: left;
+ padding: 5px 30px 5px 30px;
+
+}
+
+.botão{
+ background: white;
+ border: 2px solid black;
+ color: black;
+ border-top-right-radius: 7px;
+ border-bottom-right-radius: 7px;
+
+}
+
+
+
+.botão:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.botão-cartão{
+  border:2px solid black;
+  background: black;
+  color: white;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.botão-grupo{
+  margin-left: 31%;
+  margin-bottom: 10%;
+}
+
+.botoes{
+padding-right: auto;
+padding-left: auto;
+  margin-top: 2%;
+
+}
+/*PEFIL*/
+
+h1.perfil{
+  margin-top: 7%;
+  text-align: center;
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.col-perfil{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-botoes{
+align-items: center;
+}
+
+hr.nada2{
+  border: none;
+  height: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+  h1.titulo, h1.titulo-atual{
+    font-size: 18px;
+  }
+  }

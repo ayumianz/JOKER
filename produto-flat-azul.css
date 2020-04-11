@@ -1,0 +1,227 @@
+
+/*Produto*/
+
+.col-md{
+
+}
+.col2{
+	margin-top: 5%;
+	margin-left: 3%;
+}
+
+h1.tit{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: roboto;
+}
+
+h2.tit{
+	display: inline;
+	font-size: 23px;
+	font-family: roboto;
+	font-weight: bold;
+}
+
+.parcela{
+	font-size: 18px;
+	color: #A4A4A4;
+	padding-left: 2%;
+}
+
+h3{
+	display: inline;
+	font-family: roboto;
+}
+
+h4.tit{
+	font-size: 20px;
+	font-family: roboto;
+}
+
+hr{
+	border: none;
+
+}
+
+hr.espaço{
+border: none;
+	height: 50px;
+}
+
+.w3-button{
+	border-radius: 80px;
+	width: 40px;
+
+}
+
+button:hover{cursor: pointer}
+button {
+	background:black;
+	border: none;
+
+	position: relative;
+	margin: 4px 2px;
+	padding: 15px 43px;
+	overflow: hidden;
+}
+
+/*button:before (attr data-hover)*/
+button:hover:before{opacity: 1; transform: translate(0,0);}
+button:before{
+	content: attr(data-hover);
+	position: absolute;
+	left: 0;
+	width: 100%;
+	font-weight: bold;
+	font-family: roboto;
+	font-size: 15px;
+	opacity: 0;
+	transform: translate(-100%,0);
+	transition: all .3s ease-in-out;
+}
+
+button:hover div{opacity: 0; transform: translate(100%,0)}
+button div{
+	font-weight: bold;
+	font-size: 17px;
+	transition: all .3s ease-in-out;
+}
+
+.button1, .button2 {
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	width: 35%;
+	height: 8%;
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+
+.button1{
+	background: #FFFF40;
+	color: black;
+	
+}
+
+.button1:hover{
+	background: #FFE53B;
+	color: black;
+}
+
+.button2{
+	background: black;
+	color: white;
+	margin-left: 4%;
+}
+
+.button2:hover{
+	background:  #FFFF40;
+	color: black;
+}
+.tit{
+	margin-top: 4%;
+}
+/**/
+
+
+.round-button1 a, .round-button2 a, .round-button3 a {
+	display:block;
+	height: 26px;
+	width: 26px;
+	border-radius: 50%;
+	margin-left: 15px;
+
+
+}
+
+.round-button1 a:hover{
+	border: 2px solid black;
+}
+.round-button2 a:hover{
+	border: 2px solid black;
+}
+.round-button3 a:hover{
+	border: 2px solid black;
+}
+
+.round-button1 a{
+	background: #F9A3B1;
+}
+
+.round-button2 a{
+	background: #BD6CCB;
+}
+
+.round-button3 a{
+	background: #2A77FF;
+}
+
+
+
+  /**/
+
+
+.imagem-carousel{
+	padding-left: 0px; 
+	padding-right: 15px;
+	padding-bottom: 0px; 
+	margin-bottom: 0px;
+}
+
+.botão-icon{
+	background-image: black;
+}
+
+.produto{
+	width:100%
+}
+
+@media only screen and (max-width: 537px)  {
+	a.button1{
+		font-size: 15px;
+
+	}
+	a.button2{
+		padding-top: 2px;
+	}
+	}
+
+	@media only screen and (max-width: 537px)  {
+	a.button1{
+		font-size: 13px;
+
+
+	}
+
+	}
+
+	@media only screen and (max-width: 991px){
+		.produto{
+			width: 400;
+			height: 500px;
+		}
+
+		.button1, .button2{
+			font-size: 13px;
+		}
+
+		h1.tit{
+			font-size: 32px;
+		}
+
+		h2.tit{
+			font-size: 27px;
+		}
+	}
+
+	@media only screen and (max-width: 360px){
+
+.button1{
+		
+		}
+
+	}

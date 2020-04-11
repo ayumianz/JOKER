@@ -1,0 +1,216 @@
+/*MENU*/
+
+/* SHIFT */
+a.nav-link, .navbar-brand2, .navbar-brand3{
+  text-decoration: none;
+  width: 75px;
+  text-align: center;
+  
+}
+
+
+.navbar-brand3{
+  height: 50px;
+  margin-right: 10px;
+
+  margin-left: 20px;
+}
+
+.navbar-brand2{
+   height: 50px;
+    margin-right: 20px;
+
+  margin-left: 10px;
+}
+
+.navbar{
+  background: #111111;
+ 
+}
+
+
+.nav-item, .nav-item-atual{
+  padding-top: none;
+  font-size: 18px;
+  font-family: roboto;
+  font-weight: medium;
+  margin-right: 30px;
+
+}
+
+.nav-item-atual{
+  color: #FFFF40;
+  font-weight: bold;
+  text-decoration: none;
+  width: 75px;
+  text-align: left;
+
+}
+.nav-link{
+  display: block;
+  padding-top: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  
+ color: #FFFF40;
+ font-weight: bold;
+
+}
+
+#navbarmenu{
+  margin-top: 23px;
+  margin-bottom: 16px;
+}
+
+.d-block{
+  padding-left: 35px;
+  padding-bottom:35px;
+}
+
+/*Acessibilidade tab-pular para conteudo*/
+
+#conteudo {
+  margin-top: 1%;
+}
+
+a.pular { 
+  position: absolute; 
+  left: -10000px; 
+  width: 1px; 
+  height: 1px; 
+  overflow: hidden;
+}
+a.pular:focus, .pular a:active { 
+  position: static; 
+  left: 0; 
+  width: auto; 
+  height: auto; 
+  overflow: visible; 
+  background: #FFFF40;
+  color: black;
+}
+
+
+
+/*RODAPE*/
+
+a{
+  color:#FFFF40;
+
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+footer.page-footer{
+  font-family: roboto;
+}
+
+.rodape{
+  background-color: #FFFF40;
+  margin-top: 40px;
+
+
+}
+
+.siga-nos{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10%;
+
+}
+
+.sobre-rodape{
+  background-color: #1D1D1D; 
+  padding:20px 0px;
+  color: white;
+
+
+}
+
+.espaço-formas{
+  margin-top: 1px;
+}
+
+
+.inferior{
+  background-color: #111111;
+  padding:0px 0px;
+  color: white;
+}
+
+hr.espaço-nada-rodape{
+  border: none;
+
+}
+.rodape-geral{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.rodape-sup{
+	margin-left: 3%;
+	margin-right: 5%;
+
+}
+
+.icon-redes{
+	margin-right: 2%;
+}
+.col-contato{
+	padding-left: 3%;
+}
+
+@media only screen and (max-width: 991px)  {
+  .navbar-brand2,.navbar-brand3{
+  margin-left: 0px;
+  margin-right: 2px; 
+
+}
+
+.d-block{
+  padding-left: 5px;
+  padding-bottom: 6px;
+  color:white;
+  font-size: 18px;
+}
+
+li.icones{
+  width: 170px;
+  height: 45px;
+  padding-bottom: 40px;
+  padding-top: 0px;
+}
+
+  }
+  
+@media only screen and (max-width: 991px) {
+  .navbar-brand2,.navbar-brand3{
+  margin-left: 0px;
+  margin-right: 2px; 
+
+}
+
+img.icone{
+  width: 1px;
+
+}
+.d-block{
+ 
+  color:white;
+  font-size: 18px;
+}
+
+.icone-pag{
+  margin-left: 35px;
+}
+
+
+}

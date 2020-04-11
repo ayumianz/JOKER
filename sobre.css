@@ -1,0 +1,119 @@
+
+
+
+
+/*SOBRE*/
+
+
+
+.col-sobre1, .col-sobre2{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 10%;
+
+}
+
+.col-sobre1{
+	align-items: center;
+}
+
+
+hr.nada{
+	border: none;
+
+
+}
+
+img.mySlides, img.mySlides1{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+hr.espaço1{
+	border: none;
+	height: 40px;
+	margin-top:-35px;
+	background: #FFFF40;
+	width: 45%;
+	margin-left: 27%;
+}
+
+hr.espaço{
+	border: none;
+	height: 40px;
+	
+}
+
+hr.espaço2{
+	border: none;
+	height: 25px;
+	margin-top:-30px;
+	background: #FFFF40;
+	width: 37%;
+	margin-left: 32%;
+}
+
+@media (max-width: 766px) {
+	img.mySlides1, img.mySlides{
+	width: 0%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	img.imagens{
+		width: 0px;
+	}
+
+}
+
+
+
+
+
+p.texto-sobre{
+	text-align: center;
+	font-family: roboto;
+	font-size: 25px;
+
+}
+
+.sobre1{
+	margin-top: 10%;
+}
+
+.colu-sobre{
+	display: flex;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.colu1-sobre{
+	align-items: center;
+	margin-right: auto;
+}
+
+.imagens{
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+p.titulo1{
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bold;
+	font-size:90px;
+}
+
+p.sobre1{
+	font-size: 20px;
+	font-family: roboto;
+	text-align: center;
+}
+
+.row{
+	margin-top: 7%;
+}

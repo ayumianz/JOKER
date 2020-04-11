@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Joker</title>
+	<link rel="shortcut icon" href="j.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="pagamentos-perfil.css">
+	<link rel="stylesheet" type="text/css" href="menu-rodape.css">
+
+</head>
+<body>
+
+	<a class="pular" href="#conteudo">
+		Pular para formulário de pagamento. Primeira etapa:endereço.
+	</a>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand1">
+          <img src="finais/jokerbranco.png" width="110" alt="logo JOKER">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarmenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="produtos-todos-versão2.html" class="nav-link">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a href="sobre.html" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="contato.html" class="nav-link">Contato</a>
+            </li>
+            
+            <li class="icones">
+            <a href="listadesejos.html" class="navbar-brand2">
+              <img class="icone" src="finais/desejo.svg" width="22" alt="ícone de coração-lista de desejos">
+              <span class="lista d-block d-sm-inline d-md-none">Lista de desejos</span>
+            </a>
+          </li>
+          <li class="icones">
+            <a href="sacola-compras-botao.html" class="navbar-brand3">
+              <img class="icone" src="finais/comprar.svg" width="20" alt="ícone sacola-sacola de compras">
+              <span class="sacola d-block d-sm-inline d-md-none">Sacola de compras</span>
+            </a>
+            <li>
+          </ul> 
+        </div>
+      </div>
+    </nav>    
+
+  </header>
+
+
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<a href="endereço.html"><h1 class="titulo-atual">Endereço</h1></a>
+			</div>
+			<div class="col-4">
+				<a href="pagamento.html"><h1 class="titulo">Pagamento</h1></a>
+			</div>
+			<div class="col-4">
+				<a href=""><h1 class="titulo">Finalização</h1></a>
+			</div>
+		</div>
+	</div>
+	<!--Formulario-->
+	<div class="container">
+		<form  class="form-contact">
+			<div id="conteudo"></div>
+			<div class="row">
+				<div class="col-md-5">
+					<label for="nome"><span class="sr-only">Digite seu nome</span></label>
+					<input type="text" class="form-contact-input" placeholder="Nome" name="nome" id="nome" required />
+				</div>
+				<div class="col-md-5">
+					<label for="sobrenome"><span class="sr-only">Digite seu sobrenome</span></label>
+					<input type="text" class="form-contact-input" placeholder="Sobrenome" name="sobrenome" id="sobrenome" required />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<label for="endereço"><span class="sr-only">Digite seu endereço</span></label>
+					<input type="text" class="form-contact-input"  placeholder="Endereço" name="endereço" id="endereço" required />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<label for="CEP"><span class="sr-only">Digite seu CEP</span></label>
+					<input type="number" class="form-contact-input"  placeholder="CEP" name="CEP" id="CEP" required />
+         </div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+						<label for="número"><span class="sr-only">Digite seu número de endereço</span></label>
+					<input type="number" class="form-contact-input" placeholder="Número" name="número" id="número" required />
+				</div>
+				<div class="col-md-5">
+					<label for="complemento"><span class="sr-only">Digite o complemento (não obrigatório)</span></label>
+					<input type="number" class="form-contact-input" placeholder="Complemento" name="complemento" id="complemento" required />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+				
+					<label for="bairro"><span class="sr-only">Digite seu bairro</span></label>
+					<input type="text" class="form-contact-input"  placeholder="Bairro" name="bairro" id="bairro" required />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					
+					<label for="cidade"><span class="sr-only">Digite sua cidade</span></label>
+					<input type="text" class="form-contact-input" placeholder="Cidade" name="cidade" id="cidade" required />
+				</div>
+				<div class="col-md-5">
+					
+					<label for="estado"><span class="sr-only">Digite seu estado</span></label>
+					<input type="text" class="form-contact-input" placeholder="Estado" name="estado" id="estado" required />
+				</div>
+			</div>
+			<div class="col-md-10">
+				<a class="form-button" href="pagamento.html" role="button">Continuar</a>
+			</div>
+		</form>
+	</div>
+
+  <footer class="page-footer font-small unique-color-dark">
+
+    <div class="rodape">
+      <div class="container-fluid">
+        <div class="rodape-sup row py-4 d-flex align-items-center">
+
+          <!-- Parte superior -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="siga-nos">Siga-nos nas redes socias!</h6>
+          </div>
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+            <!-- Facebook -->
+            <a class="icon-redes" href="">
+              <img src="finais/facebook.png" width="30" alt="logo do facebook">
+            </a>
+            <!-- Twitter -->
+            <a class="icon-redes" href="">
+              <img src="finais/twitter.svg" width="30" alt="logo do twitter">
+            </a>
+            <!-- Instagram-->
+            <a class="icon-redes" href="">
+              <img src="finais/instagram.png" width="30" alt="logo do instagram">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sobre -->
+    <div class="sobre-rodape">
+      <div class="container-fluid text-center text-md-left mt-5">
+        <div class="rodape-geral row">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">Sobre nós</h6>
+            <hr class="espaço-nada-rodape">
+            <p>Joker é a loja online que te permite comprar baralhos únicos e diversificados, para todos os gostos e estilos.</p>
+          </div>
+
+
+          <!--Produtos-->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">Produtos</h6>
+            <hr class="espaço-nada-rodape">
+            <p>
+              <a href="ilustrados.html">Ilustrados</a>
+            </p>
+            <p>
+              <a href="personalizados.html">Personalizados</a>
+            </p>
+            <p>
+              <a href="tradicionais.html">Tradicionais</a>
+            </p>
+            <p>
+              <a href="acessiveis.html">Acessíveis</a>
+            </p>
+          </div>
+
+
+          <!-- Formas de pagamento -->
+          <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">Formas de pagamento</h6>
+            <hr class="espaço-nada-rodape">
+            <div class="icone-pag">
+            <a href="">
+              <img src="finais/visa.png" width="60" style="margin-right: 15px; margin-left: -15px;" alt="logo do visa">
+            </a>
+            <a href="">
+              <img src="finais/boleto.png" width="40" alt="código de barras e palavra boleto">
+            </a>
+            <hr class="espaço-nada-rodape">
+            <a href="">
+              <img src="finais/paypal.png" width="60" style= "margin-right: 15px; margin-left: -15px;" alt="logo paypal">
+            </a>
+            <a href="">
+              <img src="finais/mastercard.png" width="40" alt="logo mastercard">
+            </a>
+          </div>
+          </div>
+
+
+          <!-- Contato -->
+          <div class="col-contato col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase font-weight-bold">Contato</h6>
+            <hr class="espaço-nada-rodape">
+            <p>jokercards@gmail.com</p>
+            <p>SAC 11956839410</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Final -->
+    <div class="inferior">
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> Jokercards.com</a>
+      </div>
+    </div>
+  </footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

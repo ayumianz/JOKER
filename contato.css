@@ -1,0 +1,260 @@
+
+/*CONTATO*/
+
+.titulo{
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: bold;
+}
+.sobre{
+  padding-top: 70px;
+}
+hr.espaço1{
+
+  background: #FFFF40;
+  border: none;
+  height: 20px;
+  margin-top:-30px;
+  margin-right: 20%;
+  margin-left: 20%;
+
+  
+}
+
+hr.espaço2{
+
+  background: #FFFF40;
+  border: none;
+  height: 20px;
+  margin-top:-30px;
+  margin-right: 15%;
+  margin-left: 15%;
+  
+}
+
+.titulo{
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.instagram-feed{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+
+}
+
+
+
+
+.hovereffect {
+ display: flex;
+ margin-right: auto;
+ margin-left: auto;
+ width:450px;
+ height:450px;
+ overflow:hidden;
+ position:relative;
+ text-align:center;
+ cursor:default;
+ margin-left: auto;
+}
+
+.hovereffect .overlay {
+  margin-left: 14px;
+  margin-top: 12px;
+  width:423px;
+  height:423px;
+  position:absolute;
+  overflow:hidden;
+  opacity:0;
+  background-color:#1c1e21ab;
+  -webkit-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out
+}
+
+.hovereffect img {
+
+  -webkit-transition:all .2s linear;
+  transition:all .2s linear;
+}
+
+
+.hovereffect h2.h2-feed {
+  color:white;
+  text-align:center;
+  position:relative;
+  font-size:25px;
+  font-weight: bold;
+  -webkit-transform:translatey(-100px);
+  -ms-transform:translatey(-100px);
+  transform:translatey(-100px);
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+  margin-top: 40%;
+
+}
+
+
+.hovereffect a.info {
+  text-decoration:none;
+  display:inline-block;
+  color:white;
+  border:1px solid #fff;
+  background-color:transparent;
+  opacity:0;
+  filter:alpha(opacity=0);
+  -webkit-transition:all .2s ease-in-out;
+  transition:all .2s ease-in-out;
+  margin:40px 0 0;
+  padding:7px 12px;
+}
+
+.hovereffect a.info:hover {
+  box-shadow:0 0 7px #fff;
+}
+
+
+.hovereffect:hover .overlay {
+  opacity:1;
+  filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+  opacity:1;
+  filter:alpha(opacity=100);
+  -ms-transform:translatey(0);
+  -webkit-transform:translatey(0);
+  transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+  -webkit-transition-delay:.1s;
+  transition-delay:.1s;
+}
+
+
+
+.form-contact {
+
+  width: 100%;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.form-contact-input {
+
+  width: 75%;
+  color: #292929;
+  font-size: 16px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 10px;
+  text-indent: 20px;
+}
+
+.form-contact-textarea {
+  width: 75%;
+  color: #292929;
+  font-size: 16px;
+  background-color: #E9E9E9;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+  height: 170px;
+  margin-bottom: 20px;
+  text-indent: 20px;
+  padding-top: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: roboto;
+}
+
+.form-contact-button {
+  width: 30%;
+  font-size: 20px;
+  color: black;
+  height: 40px;
+  background: #FFFF40;
+  display: block;
+  border: none;
+  padding:auto;
+  margin-left: 5px;
+
+
+}
+
+.form-contact-button:hover {
+  border:2px solid black;
+  
+}
+
+.h2-feed{
+  color: white;
+  font-size: 20px;
+  margin-top: 140px;
+}
+
+@media only screen and (max-width: 420px) {
+ .instagram-feed{
+  width: 270px;
+  height: 270px;
+  margin-left: 8%;
+  margin-right: auto;
+  display: flex;
+
+ }
+ .sobre{
+  padding-top: 0px;
+ }
+
+.hovereffect .overlay{
+    width: 252px;
+    height: 255px;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: 10%;
+    display: flex;
+
+ }
+
+ .hovereffect{
+  height: 300px;
+ }
+
+ .titulo{
+  font-size: 20px;
+  margin-top: 15%;
+ }
+
+ p.h2-feed{
+  font-size: 20px;
+  height: 20px;
+  color: white;
+  margin-left: 70px;
+  margin-top: 120px;
+ }
+
+.info{
+  width: 80px;
+  height: 70px;
+  font-size: 15px;
+  margin-right: 90px;
+ 
+}
+
+.hovereffect a.info{
+  margin-top: 300px;
+  margin-right: 2000px;
+}
+}
+
+
