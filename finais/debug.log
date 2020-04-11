@@ -1,0 +1,3 @@
+[1102/091412.174:ERROR:process_info.cc(359)] UncheckedAllocate
+[1102/091441.763:ERROR:process_info.cc(359)] UncheckedAllocate
+[1108/151559.387:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: A operação foi concluída com êxito. (0x0)
